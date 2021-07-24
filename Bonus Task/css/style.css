@@ -1,0 +1,227 @@
+/* START OF NAV BAR STYLE */
+/* nav height */
+nav {
+  height: 5rem !important;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.width-65 {
+  width: 65%;
+}
+.width-27 {
+  width: 27%;
+}
+.width-75 {
+  width: 75%;
+}
+/* the yellow button "get started" */
+.gettingStartedBtn {
+  box-sizing: border-box;
+  padding: 4%;
+  width: max-content;
+  border: none;
+  border-radius: 0.2rem;
+}
+/* END OF NAV BAR STYLE */
+
+/*************************************************/
+/*************************************************/
+
+/* START OF THE BACKGROUND IMAGE SECTION "FIND YOUR NEW MODERN APARTMENT" */
+/* special container with  */
+
+/* the section container */
+.bgImgContainer {
+  width: 63%;
+  height: 40rem;
+  margin-left: 20%;
+  margin-right: auto;
+  position: relative;
+}
+/* the background image container */
+
+.bgImg {
+  background-image: url(../images/istockphoto-1165384568-612x612.jpg);
+  width: 85%;
+  height: 100%;
+  margin-left: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgImgOverlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(226 224 224 / 43%);
+}
+
+.absolutePosition1 {
+  position: absolute;
+  bottom: 40%;
+  width: 40%;
+  left: 0;
+}
+.inputAndButtonDiv button,
+.inputAndButtonDiv input {
+  height: 3rem;
+  margin: 0;
+}
+.inputAndButtonDiv input{
+  padding-left: 4%;
+}
+.inputAndButtonDiv {
+  margin-top: 2rem;
+  height: 3.5rem;
+}
+.inputAndButtonDiv button {
+  box-sizing: border-box;
+  padding: 3% 6%;
+  border-top-right-radius: 7%;
+  border-bottom-right-radius: 7%;
+  height: 100%;
+}
+.inputLocation {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  font-size: 1.1rem;
+  width: 20rem;
+  height: 100% !important;
+}
+
+.inputLocation::placeholder {
+  color: #1f373d77;
+}
+
+.phoneAndLocationDiv {
+  width: 40%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 4rem;
+}
+.phoneAndLocationDiv i {
+  color: white;
+  font-size: 1.4rem;
+}
+.absolutePosition2 {
+  width: 8rem;
+  color: #1f373d78;
+  position: absolute;
+  bottom: 4rem;
+  left: -3rem;
+}
+/* END OF THE BACKGROUND IMAGE SECTION "FIND YOUR NEW MODERN APARTMENT" */
+/* ************************************************* */
+/* START OF OUR COMPANY'S STATISTICS SECTION */
+.cardFour {
+  height: 11rem;
+  width: 11rem;
+  margin: 2%;
+  box-sizing: border-box;
+  padding-top: 10%;
+}
+
+/* END OF OUR COMPANY'S STATISTICS SECTION */
+/* ************************************************* */
+
+/* START OF 6 CARDS */
+.cardSix-Three{
+  width: 31%;
+  height: 23rem;
+  box-shadow: 0 0 10px rgb(175 175 175 / 33%);
+  margin-top: 4%;
+  background-color: white;
+}
+.cardSix-Three img{
+  width: 100%;
+  height: 17rem;
+}
+.cardSix-Three div{
+  box-sizing: border-box;
+}
+
+.aptBtn{
+  border-radius: 0.3rem;
+}
+/* END OF 6 CARDS */
+/* START OF 3 CARDS */
+.flippingCards{
+  width: 31%;
+  height: 20rem;
+  box-shadow: 0 0 10px rgb(175 175 175 / 33%);
+  margin-top: 4%;
+  background-color: white;
+  box-sizing: border-box;
+  padding-top: 10%;
+  padding-left:2%;
+}
+.flippingCards .specialSizeFont{
+  font-size: 10rem;
+  height: 5rem;
+  width: 5rem;
+  /* overflow: hidden; */  /* this clips the word from the bottom instead of the bottom */
+  /* this one has to be applied to an element that has an absolute position */
+  clip:rect(7.5rem,16rem,200px,2rem);
+
+}
+.absolutePos3{
+  position: absolute;
+  top:-38%;
+  left: -12%;
+}
+
+/* .flippingCards p,
+.flippingCards a{
+  box-sizing: border-box;
+  padding-left: 13%;
+  padding-top:10%;
+} */
+.flippingCards a{
+  line-height: 2;
+  border-bottom: solid;
+}
+
+
+/* END OF 3 CARDS */
+/* START OF SERVICES SECTION */
+.servicesContainer{
+  width: 65%;
+  height: 35rem;
+  margin-right: 20%;
+  margin-left: auto;
+}
+
+/* END OF SERVICES SECTION */
+
+/* START OF SECTION BEFORE FOOTER */
+.imgSize{
+  width: 100%;
+  height: 20rem;
+}
+
+
+/* END OF SECTION BEFORE FOOTER */
+
+/* START OF FOOTER */
+footer .lowerBorder{
+  border-bottom: solid 0.1rem #6b939c;
+}
+.absolutePos2{
+  position: absolute;
+  right: 5%;
+  bottom: 40%;
+  color:#6b939c;
+  font-size: 1rem;
+}
+
+.listContainer{
+  width: 90%;
+  margin-right: auto;
+}
+
+/* END OF FOOTER */

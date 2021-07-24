@@ -1,0 +1,212 @@
+/* reset style */
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* container */
+.container{
+    width: 60%;
+    height:fit-content;
+    margin: auto;
+}
+.paddingTB4{
+    padding: 4% 0;
+}
+.padding4{
+    padding: 4%;
+}
+.paddingT4{
+    padding-top: 4%;
+}
+.paddingB4{
+    padding-bottom: 4%;
+}
+.paddingL4{
+    padding-left: 4%;
+}
+.paddingLR4{
+    padding: 0 4%;
+}
+.paddingL10{
+    padding-left:13%;
+}
+.borderBoxSize{
+    box-sizing: border-box;
+}
+/* the scroll behavior */
+html{
+    scroll-behavior: smooth;
+}
+/*************************************************/
+/* global fonts */
+/*************************************************/
+.globalFont{
+    font-family: sans-serif !important;
+    font-weight: 700 !important;
+    line-height: 1.6;
+}
+.globalFont a{
+    font-size: 0.9rem;
+    line-height: 2.5;
+}
+.globalFont h1{
+    font-size: 2.5rem;
+}
+ .globalFont h2{
+    font-size: 2.3rem;
+ }
+ .globalFont h3{
+     font-size: 1.7rem;
+ }
+ .globalFont h4{
+     font-size: 1.3rem;
+ }
+.globalFont p{
+    font-size: 0.9rem;
+    line-height: 1.7;
+}
+.globalFont button{
+    font-size: 1rem;
+}
+.globalFont input{
+    font-size: 1.1rem;
+}
+
+/*************************************************/
+
+/* borders */
+.noBorder{
+    border: none;
+}
+
+
+/*************************************************/
+
+/* text transform */
+.textTransformCapitalize{
+    text-transform: capitalize;
+}
+.textTransformUppercase{
+    text-transform: uppercase;
+}
+
+/*************************************************/
+/* different background colors and text colors */
+/*************************************************/
+.yellowBg{
+    background-color: #FFCC01;
+}
+.yellowText{
+    color: #FFCC01;
+}
+.darkBlueBg{
+    background-color: #1F373D;
+}
+.lightBlueText{
+    color: #6b939c;
+}
+.darkBlueText{
+    color: #1F373D;
+}
+.grayBg{
+    background-color: #F6F5F4;
+}
+.grayText{
+    color: #8a8785;
+}
+.whiteText{
+    color: white;
+}
+.whiteBg{
+    background-color: white;
+}
+/*************************************************/
+/* for flex */
+/*************************************************/
+.d-flex{
+    display: flex;
+}
+/* different flex attributes */
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+.space-around{
+    justify-content: space-around;
+}
+
+.flex-flow-row{
+    flex-flow: row;
+}
+
+.flex-flow-col{
+    flex-flow: column;
+}
+.align-content-center{
+    align-content: center;
+}
+.text-align-end{
+    text-align: end;
+}
+.align-items-center{
+    align-items: center;
+}
+.align-items-end{
+    align-items: flex-end;
+}
+.justify-content-end{
+    justify-content: flex-end;
+}
+/*************************************************/
+/*************************************************/
+/* align text center */
+.text-align-center{
+    text-align: center;
+}
+
+/* rotate */
+.rotateNeg90Deg{
+    transform:rotate(-90deg) ;
+}
+
+/* dividing the flex into two asides */
+.asideLeft, .asideRight{
+    width: 47%;
+}
+/* different widths */
+.width-49{
+    width: 49%;
+}
+.width-40{
+    width: 40%;
+}
+.width-70{
+    width: 70%;
+}
+/* heights */
+.height-70rem{
+    height: 70rem;
+} 
+/* POSITION */
+/* relative */
+.relativePos{
+    position: relative;
+}
+/* absolute Middle in bottom*/
+.absolutePosMB{
+    position: absolute;
+    bottom: -10%;
+    left: 27%
+}
+.absolutePosR{
+    position: absolute;
+    bottom: -6%;
+    right: -10%;
+}

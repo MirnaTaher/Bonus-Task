@@ -1,0 +1,15 @@
+/* hover */
+:hover{
+    transition-duration: 0.35s;
+}
+button:hover,
+footer i:hover,
+.flippingCards:hover{
+    cursor:pointer;
+}
+.flippingCards:hover{
+    transform: rotateY(360deg);
+    color: white;
+    transition-duration: 1s;
+    background-color: #FFCC01;
+}

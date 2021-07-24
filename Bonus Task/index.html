@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- all languages -->
+    <meta charset="UTF-8">
+    <!-- to be compatible with ms edge -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- to be responsive on different screen sizes -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bounce Task</title>
+    <!-- global style -->
+    <link rel="stylesheet" href="css/globalStyle.css">
+    <!-- custom style -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- fontawesome style -->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- if I wanted to use the cdn -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
+
+    <!-- wow.js -->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!-- linking pseudo elements and classes (hover, focus, etc...) -->
+    <link rel="stylesheet" href="css/pseudo.css">
+</head>
+
+<body>
+    <!-- Nav bar -->
+    <nav class="container darkBlueText d-flex flex-flow-row space-between align-items-center globalFont">
+        <h3>
+            luxestate
+        </h3>
+        <div class="d-flex space-between width-75">
+            <li class="d-flex flex-flow-row space-between width-65 align-items-center">
+                <ul><a href="#About">About</a></ul>
+                <ul><a href="#Appartments">Appartments</a></ul>
+                <ul><a href="#HowItWorks">How it works</a></ul>
+                <ul><a href="#Agents">Agents</a></ul>
+                <ul><a href="#ContactUs">Contact Us</a></ul>
+            </li>
+            <li class="d-flex flex-flow-row space-between width-27 align-items-center">
+                <ul><a href="#">Join Us</a></ul>
+                <ul class="gettingStartedBtn yellowBg globalFont"><a href="#">Getting Started</a></ul>
+            </li>
+        </div>
+
+    </nav>
+
+    <!-- background image section -->
+    <section class="bgImgContainer globalFont darkBlueText">
+        <div class="bgImg">
+            <div class="bgImgOverlay">
+                <!-- searching for location -->
+                <div class="absolutePosition1">
+                    <h1 class="textTransformCapitalize">find your new modern appartment</h1>
+                    <div class="inputAndButtonDiv d-flex flex-flow-row">
+                        <input class="inputLocation noBorder" type="text" name="location"
+                            placeholder=" &#xf002;   Search locactions">
+                        <button class="yellowBg darkBlueText noBorder globalFont">Search</button>
+                    </div>
+                </div>
+                <!-- phone number and location -->
+                <div class="d-flex flex-flow-row yellowBg phoneAndLocationDiv space-around align-items-center">
+                    <i class="fas fa-phone-alt"></i>
+                    <p>(000) 123-4567</p>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Melbourne, Australia</p>
+                </div>
+            </div>
+            <div class="rotateNeg90Deg d-flex align-items-center absolutePosition2 space-between">
+                <i class="fas fa-long-arrow-alt-left"></i>
+                <p> scroll down</p>
+
+            </div>
+        </div>
+
+
+
+    </section>
+
+    <!-- second section, Our company's statistics -->
+    <section class="d-flex flex-flow-row container globalFont darkBlueText space-between paddingTB4 wow  slideInRight" data-wow-duration="0.4s">
+        <!-- left aside -->
+        <aside class="d-flex flex-flow-col space-between asideLeft">
+            <h2 class="textTransformCapitalize" id="About">our company's statistics</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae assumenda suscipit nam illo at dolores
+                reprehenderit, ipsa voluptatem qui sapiente modi consequatur cumque pariatur? Molestias?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae assumenda suscipit nam illo at dolores
+                reprehenderit, ipsa voluptatem qui sapiente modi consequatur cumque pariatur? Molestias?</p>
+        </aside>
+        <!-- right aside -->
+        <aside class="asideRight d-flex flex-wrap justify-content-end">
+            <div class="grayBg cardFour text-align-center">
+                <h2 class="yellowText">748</h2>
+                <p> Appartments</p>
+            </div>
+
+            <div class="grayBg cardFour text-align-center">
+                <h2 class="yellowText">3854</h2>
+                <p>Clients</p>
+            </div>
+
+            <div class="grayBg cardFour text-align-center">
+                <h2 class="yellowText">24</h2>
+                <p>Employees</p>
+            </div>
+
+            <div class="grayBg cardFour text-align-center">
+                <h2 class="yellowText">14</h2>
+                <p>Awards</p>
+            </div>
+        </aside>
+    </section>
+
+    <!-- the six image card section -->
+    <section class="grayBg paddingTB4 globalFont darkBlueText wow slideInLeft" data-wow-duration="0.4s">
+        <div class="container ">
+            <h2 class="textTransformCapitalize asideLeft" id="Appartments">more than 500+ appartments for rent</h2>
+            <!-- six cards -->
+            <div class="d-flex flex-wrap space-between">
+                <div class="cardSix-Three d-flex flex-flow-col">
+                    <img src="images/img1.jpg" alt="appartment 1">
+                    <div class="padding4">
+                        <p>Random Street, Apt B455, New York</p>
+                        <div class="d-flex flex-flow-row space-between align-items-center paddingTB4">
+                            <p class="asideLeft yellowText">$3,500</p>
+                            <div class="d-flex asideRight space-between flex-flow-row grayText align-items-center">
+                                <i class="far fa-building"></i>
+                                <p>2 BA</p>
+                                <i class="far fa-money-bill-alt"></i>
+                                <p>2 BD</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardSix-Three d-flex flex-flow-col">
+                    <img src="images/img2.jpg" alt="appartment 2">
+                    <div class="padding4">
+                        <p>Random Street, Apt B455, New York</p>
+                        <div class="d-flex flex-flow-row space-between align-items-center paddingTB4">
+                            <p class="asideLeft yellowText">$3,500</p>
+                            <div class="d-flex asideRight space-between flex-flow-row grayText align-items-center">
+                                <i class="far fa-building"></i>
+                                <p>2 BA</p>
+                                <i class="far fa-money-bill-alt"></i>
+                                <p>2 BD</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardSix-Three d-flex flex-flow-col">
+                    <img src="images/img3.jpg" alt="appartment 3">
+                    <div class="padding4">
+                        <p>Random Street, Apt B455, New York</p>
+                        <div class="d-flex flex-flow-row space-between align-items-center paddingTB4">
+                            <p class="asideLeft yellowText">$3,500</p>
+                            <div class="d-flex asideRight space-between flex-flow-row grayText align-items-center">
+                                <i class="far fa-building"></i>
+                                <p>2 BA</p>
+                                <i class="far fa-money-bill-alt"></i>
+                                <p>2 BD</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardSix-Three d-flex flex-flow-col">
+                    <img src="images/img4.jpeg" alt="appartment 4">
+                    <div class="padding4">
+                        <p>Random Street, Apt B455, New York</p>
+                        <div class="d-flex flex-flow-row space-between align-items-center paddingTB4">
+                            <p class="asideLeft yellowText">$3,500</p>
+                            <div class="d-flex asideRight space-between flex-flow-row grayText align-items-center">
+                                <i class="far fa-building"></i>
+                                <p>2 BA</p>
+                                <i class="far fa-money-bill-alt"></i>
+                                <p>2 BD</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardSix-Three d-flex flex-flow-col">
+                    <img src="images/img5.jpg" alt="appartment 5">
+                    <div class="padding4">
+                        <p>Random Street, Apt B455, New York</p>
+                        <div class="d-flex flex-flow-row space-between align-items-center paddingTB4">
+                            <p class="asideLeft yellowText">$3,500</p>
+                            <div class="d-flex asideRight space-between flex-flow-row grayText align-items-center">
+                                <i class="far fa-building"></i>
+                                <p>2 BA</p>
+                                <i class="far fa-money-bill-alt"></i>
+                                <p>2 BD</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cardSix-Three d-flex flex-flow-col">
+                    <img src="images/img6.jpg" alt="appartment 6">
+                    <div class="padding4">
+                        <p>Random Street, Apt B455, New York</p>
+                        <div class="d-flex flex-flow-row space-between align-items-center paddingTB4">
+                            <p class="asideLeft yellowText">$3,500</p>
+                            <div class="d-flex asideRight space-between flex-flow-row grayText align-items-center">
+                                <i class="far fa-building"></i>
+                                <p>2 BA</p>
+                                <i class="far fa-money-bill-alt"></i>
+                                <p>2 BD</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-flow-row space-between width-70">
+                    <div class="inputAndButtonDiv d-flex flex-flow-row">
+                        <input class="inputLocation noBorder" type="text" name="location"
+                            placeholder=" &#xf002;   Search locactions">
+                        <button class="yellowBg darkBlueText noBorder globalFont">Search</button>
+                    </div>
+                    <button class="noBorder whiteBg paddingLR4 globalFont darkBlueText inputAndButtonDiv aptBtn">View
+                        All
+                        Appartments</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- the three flipping cards section -->
+    <section class="container globalFont darkBlueText paddingTB4 wow slideInRight" data-wow-duration="0.4s">
+        <!-- the paragraph div -->
+        <div class="asideLeft">
+            <h2 id="HowItWorks">How it works?</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore dolor, corporis illo ipsum aut
+                necessitatibus.</p>
+        </div>
+        <!-- the 3D cards div -->
+        <div class="d-flex flex-flow-row space-between">
+            <div class="flippingCards relativePos">
+                <h1 class="specialSizeFont absolutePos3">01</h1>
+                <div class="d-flex">
+                    <h4>01</h4>
+                    <h4 class="paddingL4">Find Your Location</h4>
+                </div>
+
+                <div class="paddingL10 borderBoxSize paddingT4">
+                    <p class="paddingTB4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, voluptatibus.
+                    </p>
+                    <a class="paddingTB4" href="#">Find Location</a>
+                </div>
+            </div>
+
+            <div class="flippingCards relativePos">
+                <h1 class="specialSizeFont absolutePos3">02</h1>
+                <div class="d-flex">
+                    <h4>02</h4>
+                    <h4 class="paddingL4">Find Appartment</h4>
+                </div>
+
+                <div class="paddingL10 borderBoxSize paddingT4">
+                    <p class="paddingTB4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ex!</p>
+                    <a class="paddingTB4" href="#">Find Appartment</a>
+                </div>
+
+            </div>
+
+            <div class="flippingCards relativePos">
+                <h1 class="specialSizeFont absolutePos3">03</h1>
+                <div class="d-flex">
+                    <h4>03</h4>
+                    <h4 class="paddingL4">Make Contact</h4>
+                </div>
+                <div class="paddingL10 borderBoxSize paddingT4">
+                    <p class="paddingTB4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, quidem.</p>
+                    <a class="paddingTB4" href="#">Make Contact</a>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- the paragraph div -->
+        <div class="asideLeft paddingT4">
+            <h2 id="Services">Services</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, rerum!</p>
+        </div>
+    </section>
+
+    <!-- the shifted section after services -->
+    <section class="servicesContainer paddingB4 globalFont darkBlueText d-flex flex-flow-row space-between wow  slideInLeft" data-wow-duration="0.4s">
+        <!-- img div -->
+        <div class="asideLeft">
+            <img src="images/one-santa-fe-la-COLLAGE.jpg" width="100%" height="100%">
+        </div>
+        <div class="asideRight d-flex flex-flow-col space-between">
+            <div>
+                <h3 class="paddingB4" id="Renting">Renting</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero quae necessitatibus consectetur
+                    perspiciatis quaerat, laborum error. Eligendi consectetur ipsa alias asperiores commodi, harum
+                    repellat
+                    dignissimos ipsam debitis hic reiciendis distinctio!</p>
+            </div>
+            <div>
+                <h3 class="paddingB4" id="Selling">Selling</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi laborum harum omnis ducimus fugit
+                    quod,
+                    porro enim ad eum soluta officia accusantium recusandae fuga, cupiditate amet vel eligendi veniam
+                    iure.
+                </p>
+            </div>
+
+            <div>
+                <h3 class="paddingB4" id="Building">Building</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente accusamus soluta nisi, doloribus
+                    neque
+                    incidunt optio? Corporis possimus fugit suscipit, perspiciatis soluta fugiat quasi numquam, animi ut
+                    dignissimos iusto explicabo.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- the agents section -->
+    <section class="globalFont darkBlueText grayBg paddingTB4 wow  slideInRight" data-wow-duration="0.4s">
+        <div class="container">
+            <div class="asideLeft">
+                <h2 id="Agents">Meet Our Agents</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia perferendis voluptas quam quae corrupti
+                    perspiciatis harum sit ducimus nihil at?</p>
+            </div>
+            <div class="d-flex flex-flow-row space-between">
+                <div class="cardSix-Three">
+                    <img src="images/images.png">
+                    <h4 class="paddingL4">Agent</h4>
+                    <div class="d-flex flex-flow-row space-between padding4 align-items-center">
+                        <h4><a href="#" class="yellowText">Mr. Luke Skywalker</a></h4>
+                        <div class="d-flex flex-flow-row darkBlueText space-around asideRight">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-fan"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardSix-Three">
+                    <img src="images/images.png">
+                    <h4 class="paddingL4">Agent</h4>
+                    <div class="d-flex flex-flow-row space-between padding4 align-items-center">
+                        <h4><a href="#" class="yellowText">Mr. Luke Skywalker</a></h4>
+                        <div class="d-flex flex-flow-row darkBlueText space-around asideRight">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-fan"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardSix-Three">
+                    <img src="images/images.png">
+                    <h4 class="paddingL4">Agent</h4>
+                    <div class="d-flex flex-flow-row space-between padding4 align-items-center">
+                        <h4><a href="#" class="yellowText">Mr. Luke Skywalker</a></h4>
+                        <div class="d-flex flex-flow-row darkBlueText space-around asideRight">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fas fa-fan"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- super awesome add section -->
+    <section
+        class="container d-flex space-between flex-wrap globalFont darkBlueText paddingTB4 align-items-center height-70rem wow  slideInLeft" data-wow-duration="0.4s">
+        <div class="width-49 relativePos">
+            <img class="imgSize" src="images/pexels-photo-1170412.jpeg">
+            <div
+                class="yellowBg asideLeft d-flex flex-flow-row align-items-center space-between padding4 borderBoxSize absolutePosMB">
+                <i class="fas fa-map-marker-alt whiteText"></i>
+                <p>Melbourne, Australia</p>
+            </div>
+        </div>
+        <div class="width-40">
+            <h3 class="paddingB4">Super Awesome Add</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione reprehenderit suscipit temporibus
+                aliquam voluptatum, beatae similique consequuntur eos laudantium aliquid eius, fugit animi repellendus
+                eligendi.</p>
+        </div>
+
+        <div class="width-40 text-align-end">
+            <h3 class="paddingB4">Super Awesome Add</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione reprehenderit suscipit temporibus
+                aliquam voluptatum, beatae similique consequuntur eos laudantium aliquid eius, fugit animi repellendus
+                eligendi.</p>
+        </div>
+
+        <div class="width-49 relativePos">
+            <img class="imgSize" src="images/pexels-photo-1170412.jpeg">
+            <div
+                class="yellowBg asideLeft d-flex flex-flow-row align-items-center space-between padding4 borderBoxSize absolutePosR">
+                <i class="fas fa-map-marker-alt whiteText"></i>
+                <p>Melbourne, Australia</p>
+            </div>
+
+        </div>
+
+        <div class="width-49">
+            <img class="imgSize" src="images/pexels-photo-1170412.jpeg">
+
+        </div>
+
+        <div class="width-40">
+            <h3 class="paddingB4">Super Awesome Add</h3>
+            <p class="paddingB4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione reprehenderit suscipit
+                temporibus
+                aliquam voluptatum, beatae similique consequuntur eos laudantium aliquid eius, fugit animi repellendus
+                eligendi.</p>
+            <button class="darkBlueBg whiteText globalFont noBorder padding4">Show Me More</button>
+        </div>
+
+    </section>
+
+    <!-- footer -->
+    <footer class="darkBlueBg globalFont whiteText paddingTB4 wow  slideInRight" data-wow-duration="0.4s">
+        <div class="container">
+            <div class="d-flex flex-flow-row space-between paddingB4 lowerBorder align-items-end">
+                <div>
+                    <h3>luxestate</h3>
+                    <h3>Explore Real Estate</h3>
+                </div>
+                <div class="relativePos width-49 text-align-end">
+                    <i class="fas fa-long-arrow-alt-right absolutePos2"></i>
+                    <input type="text" placeholder="Subscribe to Our Newsletter" class="padding4 width-65">
+                </div>
+            </div>
+
+            <div class="d-flex flex-flow-row paddingT4 listContainer space-between">
+                <div>
+                    <h4 class="paddingB4">luxestate</h4>
+                    <p class="paddingT4">© 2019 - luxestate</p>
+                    <p>All Rights Reserved</p>
+                </div>
+                <div class="d-flex flex-flow-row width-65 space-between">
+                    <div class="d-flex flex-flow-col">
+                        <li>
+                            <ul class="lightBlueText textTransformUppercase"><a href="#luxestate">luxestate</a></ul>
+                            <ul class="paddingT4"><a href="#Agents">Agents</a></ul>
+                            <ul><a href="#">Hunters</a></ul>
+                        </li>
+
+                    </div>
+
+                    <div class="d-flex flex-flow-col">
+                        <li>
+                            <ul class="lightBlueText textTransformUppercase"><a href="#company">Company</a></ul>
+                            <ul class="paddingT4"><a href="#About">About</a></ul>
+                            <ul><a href="#">FAQ</a></ul>
+                            <ul><a href="#">Contact</a></ul>
+                            <ul><a href="#">Social</a></ul>
+                        </li>
+                    </div>
+
+                    <div class="d-flex flex-flow-col">
+                        <li>
+                            <ul class="lightBlueText textTransformUppercase"><a href="#product">PRODUCT</a></ul>
+                            <ul class="paddingT4"><a href="#Appartments">Appartments</a></ul>
+                            <ul><a href="#HowItWorks">How it Works</a></ul>
+                        </li>
+                    </div>
+
+                    <div class="d-flex flex-flow-col">
+                        <li>
+                            <ul class="lightBlueText textTransformUppercase paddingB4"><a href="#Services">Services</a>
+                            </ul>
+                            <ul class="paddingT4"><a href="#Renting">Renting</a></ul>
+                            <ul><a href="#Selling">Selling</a></ul>
+                            <ul><a href="#Building">Building</a></ul>
+                        </li>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </footer>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+
+</html>
